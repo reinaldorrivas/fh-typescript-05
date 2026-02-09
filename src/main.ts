@@ -1,7 +1,10 @@
+import { letVarTS } from "./esnext/letVar";
 import "./style.css";
 
-document.querySelector<HTMLDivElement>("#app")!.innerHTML = /* html */`
+document.querySelector<HTMLDivElement>("#app")!.innerHTML = /* html */ `
   <div>
-    <h1>TS + ES6</h1>
+    <h1>TS + ESNEXT</h1>
   </div>
 `;
+
+letVarTS();
