@@ -1,5 +1,6 @@
 import { destructuringArrays } from "./esnext/destructuringArrays";
 import { destructuringObjects } from "./esnext/destructuringObjects";
+import { forOf } from "./esnext/forof";
 import { letVarTS } from "./esnext/letVar";
 import "./style.css";
 
@@ -12,3 +13,4 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = /* html */ `
 letVarTS();
 destructuringObjects();
 destructuringArrays();
+forOf();
