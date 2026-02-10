@@ -4,7 +4,7 @@ type Avenger = {
   power: number;
 };
 
-const printAvenger = ({ name, ...rest }: Avenger) => {
+const printAvenger = ({ name, ...rest }: Avenger): void => {
   console.log("name:", name);
   console.log("...rest:", rest);
 };
