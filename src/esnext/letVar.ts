@@ -14,4 +14,6 @@ export const letVarTS = (): void => {
   );
 
   console.log(voidFunction);
+
+  console.log("--- END LET/CONST/VAR FILE ---");
 };
