@@ -1,3 +1,4 @@
+import { destructuringArrays } from "./esnext/destructuringArrays";
 import { destructuringObjects } from "./esnext/destructuringObjects";
 import { letVarTS } from "./esnext/letVar";
 import "./style.css";
@@ -10,3 +11,4 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = /* html */ `
 
 letVarTS();
 destructuringObjects();
+destructuringArrays();

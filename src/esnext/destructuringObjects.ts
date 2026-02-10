@@ -18,5 +18,5 @@ export const destructuringObjects = (): void => {
 
   printAvenger(avenger);
 
-  console.log("--- END DESTRUCTURING FILE ---");
+  console.log("--- END DESTRUCTURING OBJECTS FILE ---");
 };
