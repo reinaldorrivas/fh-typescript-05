@@ -46,4 +46,6 @@ export const javascriptClass = () => {
   console.log("Is gay?:", falcon.isGayOrNot);
 
   Avenger.cantidadInstancias();
+
+  console.log("--- END JAVASCRIPT CLASS FILE ---");
 };
